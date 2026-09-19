@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Madhav Learning</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">📚 Madhav Learning</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#classes">Classes</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <button onclick="showLogin()">Login</button>
+</header>
+
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="welcome">WELCOME TO</p>
+
+        <h1>Madhav <span>Learning</span></h1>
+
+        <h2>Learn • Practice • Achieve</h2>
+
+        <p>
+            Complete study platform for students of
+            Class 6 to Class 12.
+        </p>
+
+        <button onclick="goToClasses()">
+            Start Learning 🚀
+        </button>
+
+    </div>
+
+    <div class="hero-card">
+
+        <div class="book">📖</div>
+
+        <h2>Study Smart</h2>
+
+        <p>
+            Notes • Syllabus • Quiz • Practice
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CLASSES -->
+
+<section id="classes">
+
+    <h2 class="title">Choose Your Class</h2>
+
+    <p class="subtitle">
+        Select your class to start learning
+    </p>
+
+    <div class="class-container">
+
+        <div class="class-card" onclick="openClass(6)">
+            <span>06</span>
+            <h3>Class 6</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(7)">
+            <span>07</span>
+            <h3>Class 7</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(8)">
+            <span>08</span>
+            <h3>Class 8</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(9)">
+            <span>09</span>
+            <h3>Class 9</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(10)">
+            <span>10</span>
+            <h3>Class 10</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(11)">
+            <span>11</span>
+            <h3>Class 11</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+        <div class="class-card" onclick="openClass(12)">
+            <span>12</span>
+            <h3>Class 12</h3>
+            <p>Explore Courses →</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SUBJECT AREA -->
+
+<section id="study-area" class="study-area">
+
+    <button class="back" onclick="backToClasses()">
+        ← Back
+    </button>
+
+    <h2 id="class-title"></h2>
+
+    <div id="subjects"></div>
+
+    <div id="content"></div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+    <h2>About Madhav Learning</h2>
+
+    <p>
+        Madhav Learning is a study platform designed to help
+        students learn through simple notes, syllabus,
+        practice questions and quizzes.
+    </p>
+
+</section>
+
+
+<footer>
+
+    <h2>📚 Madhav Learning</h2>
+
+    <p>Learn • Practice • Achieve</p>
+
+    <p>© 2026 Madhav Learning</p>
+
+</footer>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
